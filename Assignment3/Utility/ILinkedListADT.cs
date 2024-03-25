@@ -93,5 +93,9 @@ namespace Assignment3
         /// <param name="value">Value to find index of.</param>
         /// <returns>True if element exists with value.</returns>
         bool Contains(User value);
+
+        User[] NodesToArray();
+
+        public void Print();
     }
 }
