@@ -1,6 +1,6 @@
 namespace Assignment3
 {
-    class SLL : ILinkedListADT
+    public class SLL : ILinkedListADT
     {
         public Node<User> Head { get; set; }
         public Node<User> Tail { get; set; }
